@@ -3,7 +3,11 @@ import FormComponent from "../../components/Form/FormComponent";
 import "./LoginPage.scss";
 
 const LoginPage: FunctionComponent = () => {
-  return <FormComponent formType="login" />;
+  return (
+    <div className="container">
+      <FormComponent formType="login" />
+    </div>
+  );
 };
 
 export default LoginPage;

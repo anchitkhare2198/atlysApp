@@ -74,7 +74,7 @@ const FormComponent: FunctionComponent<FormComponentProps> = ({
       style={{ height: modal ? "fit-content" : "100vh" }}
     >
       {!modal && <img src={Logo} alt="Logo" className="icon" />}
-      <div className="form-box" style={{ width: modal ? "100%" : "35%" }}>
+      <div className="form-box" style={{ width: modal ? "100%" : "80%" }}>
         {modal && (
           <div style={{ alignSelf: "flex-end" }}>
             <div className="close-icon-container" onClick={onClose}>
